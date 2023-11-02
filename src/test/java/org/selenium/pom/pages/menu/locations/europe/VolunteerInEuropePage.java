@@ -1,0 +1,26 @@
+package org.selenium.pom.pages.menu.locations.europe;
+
+import io.qameta.allure.Step;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.selenium.pom.base.BasePage;
+
+public class VolunteerInEuropePage extends BasePage {
+    private final By pageTitle = By.xpath("(//h1[normalize-space()='Volunteer in Europe'])[1]");
+
+    public VolunteerInEuropePage(WebDriver driver) {
+        super(driver);
+    }
+
+    @Step
+    public VolunteerInEuropePage load() {
+        loadPage("/");
+        return this;
+    }
+
+    @Step
+    public String getPageTitle() {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(pageTitle)).getText();
+    }
+}

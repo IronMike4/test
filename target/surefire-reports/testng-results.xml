@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="32" passed="21" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T19:54:16 SAST" name="Suite1" finished-at="2023-11-02T19:57:18 SAST" duration-ms="181797">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T19:54:16 SAST" name="Firefox" finished-at="2023-11-02T19:56:57 SAST" duration-ms="160675">
+      <class name="org.selenium.pom.tests.FormTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:28 SAST" duration-ms="11661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:22 SAST" duration-ms="6042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:25 SAST" duration-ms="8175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="BlogSignUpFormEnquiry()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:22 SAST" name="BlogSignUpFormEnquiry" description="Blog signup form enquiry for the Discovering Orchids program" finished-at="2023-11-02T19:54:31 SAST" duration-ms="8887" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button class="flex m-auto  sm:w-1/2 w-full py-2 bg-red-light dark:bg-green-standard border dark:border-green-standard border-red-right justify-center items-center rounded-full dark:rounded-[3px]" type="submit"> is not clickable at point (613,871) because another element <div class="dark:text-white text-black-lighter"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ab1911c4-bbd9-4e66-ba8e-423d5da94f1d, clickElement {id=e9b66fe0-bbe4-4167-a4fe-4c4da025a60e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26136, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 159, moz:profile: /tmp/rust_mozprofilehjG5Xg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)] -> xpath: (//button[@type='submit'])[1]]
+Session ID: ab1911c4-bbd9-4e66-ba8e-423d5da94f1d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="flex m-auto  sm:w-1/2 w-full py-2 bg-red-light dark:bg-green-standard border dark:border-green-standard border-red-right justify-center items-center rounded-full dark:rounded-[3px]" type="submit"> is not clickable at point (613,871) because another element <div class="dark:text-white text-black-lighter"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ab1911c4-bbd9-4e66-ba8e-423d5da94f1d, clickElement {id=e9b66fe0-bbe4-4167-a4fe-4c4da025a60e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26136, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 159, moz:profile: /tmp/rust_mozprofilehjG5Xg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)] -> xpath: (//button[@type='submit'])[1]]
+Session ID: ab1911c4-bbd9-4e66-ba8e-423d5da94f1d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at org.selenium.pom.pages.forms.BlogSignUpForm.submitEnquiry(BlogSignUpForm.java:78)
+at org.selenium.pom.tests.FormTest.BlogSignUpFormEnquiry(FormTest.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogSignUpFormEnquiry -->
+        <test-method signature="BrochureDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:25 SAST" name="BrochureDownloadFormSubmission" description="Brochure Download form submission" finished-at="2023-11-02T19:54:48 SAST" duration-ms="23017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrochureDownloadFormSubmission -->
+        <test-method signature="BlogSignUpFormCallbackRequest()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:28 SAST" name="BlogSignUpFormCallbackRequest" description="Blog signup form callback request for the Discovering Orchids program" finished-at="2023-11-02T19:55:04 SAST" duration-ms="36170" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:24815, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 608, moz:profile: /tmp/rust_mozprofileOQlCNK, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15944146-567a-43e0-8e14-8bc5e9c61408]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:24815, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 608, moz:profile: /tmp/rust_mozprofileOQlCNK, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15944146-567a-43e0-8e14-8bc5e9c61408
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+at org.selenium.pom.tests.FormTest.BlogSignUpFormCallbackRequest(FormTest.java:108)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogSignUpFormCallbackRequest -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:31 SAST" name="quitDriver" finished-at="2023-11-02T19:54:34 SAST" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BlogSignUpFormEnquiry status=FAILURE method=FormTest.BlogSignUpFormEnquiry()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:34 SAST" name="startDriver" finished-at="2023-11-02T19:54:37 SAST" duration-ms="3577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="CallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:37 SAST" name="CallBackRequestFormSubmission" description="Generic Callback Request form submission" finished-at="2023-11-02T19:55:13 SAST" duration-ms="35738" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:3468, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1030, moz:profile: /tmp/rust_mozprofileNMO3Ou, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ea347a52-e596-44e1-bf31-c102c38e4f44]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:3468, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1030, moz:profile: /tmp/rust_mozprofileNMO3Ou, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ea347a52-e596-44e1-bf31-c102c38e4f44
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+at org.selenium.pom.tests.FormTest.CallBackRequestFormSubmission(FormTest.java:165)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallBackRequestFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:48 SAST" name="quitDriver" finished-at="2023-11-02T19:54:49 SAST" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BrochureDownloadFormSubmission status=SUCCESS method=FormTest.BrochureDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:49 SAST" name="startDriver" finished-at="2023-11-02T19:54:50 SAST" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnquiryFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:54:50 SAST" name="EnquiryFormSubmission" description="Enquiry form submission" finished-at="2023-11-02T19:55:25 SAST" duration-ms="35140" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:6500, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1483, moz:profile: /tmp/rust_mozprofileq66Huq, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b320cad9-984d-4e66-8684-3da042364d74]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:6500, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1483, moz:profile: /tmp/rust_mozprofileq66Huq, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b320cad9-984d-4e66-8684-3da042364d74
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+at org.selenium.pom.tests.FormTest.EnquiryFormSubmission(FormTest.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:04 SAST" name="quitDriver" finished-at="2023-11-02T19:55:06 SAST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BlogSignUpFormCallbackRequest status=FAILURE method=FormTest.BlogSignUpFormCallbackRequest()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:06 SAST" name="startDriver" finished-at="2023-11-02T19:55:07 SAST" duration-ms="1373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:07 SAST" name="GetMoreInfoFormSubmission" description="Get more info form submission for the Volunteer With Elephants program" finished-at="2023-11-02T19:55:31 SAST" duration-ms="23811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMoreInfoFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:13 SAST" name="quitDriver" finished-at="2023-11-02T19:55:15 SAST" duration-ms="2359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CallBackRequestFormSubmission status=FAILURE method=FormTest.CallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:15 SAST" name="startDriver" finished-at="2023-11-02T19:55:18 SAST" duration-ms="2451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GroupApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:18 SAST" name="GroupApplicationFormSubmission" description="Group application form submission for the Greece Coastal Conservation program" finished-at="2023-11-02T19:55:44 SAST" duration-ms="25756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupApplicationFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:25 SAST" name="quitDriver" finished-at="2023-11-02T19:55:30 SAST" duration-ms="4415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=EnquiryFormSubmission status=FAILURE method=FormTest.EnquiryFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:30 SAST" name="startDriver" finished-at="2023-11-02T19:55:34 SAST" duration-ms="3860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:31 SAST" name="quitDriver" finished-at="2023-11-02T19:55:38 SAST" duration-ms="6720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GetMoreInfoFormSubmission status=SUCCESS method=FormTest.GetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="ItineraryDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:34 SAST" name="ItineraryDownloadFormSubmission" description="Itinerary Download form submission" finished-at="2023-11-02T19:56:09 SAST" duration-ms="35565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItineraryDownloadFormSubmission -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:38 SAST" name="startDriver" finished-at="2023-11-02T19:55:40 SAST" duration-ms="2944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NewsletterSubscription()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:40 SAST" name="NewsletterSubscription" description="Newsletter Subscription" finished-at="2023-11-02T19:55:58 SAST" duration-ms="17212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewsletterSubscription -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:44 SAST" name="quitDriver" finished-at="2023-11-02T19:55:46 SAST" duration-ms="2387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GroupApplicationFormSubmission status=SUCCESS method=FormTest.GroupApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:46 SAST" name="startDriver" finished-at="2023-11-02T19:55:50 SAST" duration-ms="3793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OnlineCourseGetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:50 SAST" name="OnlineCourseGetMoreInfoFormSubmission" description="Online course Get More Info form submission for the Impact Measurement program" finished-at="2023-11-02T19:56:11 SAST" duration-ms="21094" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <input class="opacity-0 absolute" name="newsletter" type="checkbox"> is not clickable at point (827,885) because another element <div class="gvi-container flex justify-between items-center mx-auto py-7"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6371ba12-8501-4933-932b-64289de8c23a, clickElement {id=4f5325ce-7cae-4512-9daf-b756364c840b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:17170, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 3235, moz:profile: /tmp/rust_mozprofileBgdrla, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)] -> xpath: //input[@name='newsletter']]
+Session ID: 6371ba12-8501-4933-932b-64289de8c23a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <input class="opacity-0 absolute" name="newsletter" type="checkbox"> is not clickable at point (827,885) because another element <div class="gvi-container flex justify-between items-center mx-auto py-7"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6371ba12-8501-4933-932b-64289de8c23a, clickElement {id=4f5325ce-7cae-4512-9daf-b756364c840b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:17170, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 3235, moz:profile: /tmp/rust_mozprofileBgdrla, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)] -> xpath: //input[@name='newsletter']]
+Session ID: 6371ba12-8501-4933-932b-64289de8c23a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at org.selenium.pom.pages.forms.OnlineCourseGetMoreInfoForm.selectNewsletter(OnlineCourseGetMoreInfoForm.java:74)
+at org.selenium.pom.tests.FormTest.OnlineCourseGetMoreInfoFormSubmission(FormTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlineCourseGetMoreInfoFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:55:58 SAST" name="quitDriver" finished-at="2023-11-02T19:56:02 SAST" duration-ms="3943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=NewsletterSubscription status=SUCCESS method=FormTest.NewsletterSubscription()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:02 SAST" name="startDriver" finished-at="2023-11-02T19:56:05 SAST" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="ParentConsultationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:05 SAST" name="ParentConsultationFormSubmission" description="Free Parent Consultation form submission" finished-at="2023-11-02T19:56:20 SAST" duration-ms="15442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParentConsultationFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:09 SAST" name="quitDriver" finished-at="2023-11-02T19:56:13 SAST" duration-ms="3541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ItineraryDownloadFormSubmission status=SUCCESS method=FormTest.ItineraryDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:11 SAST" name="quitDriver" finished-at="2023-11-02T19:56:16 SAST" duration-ms="4981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OnlineCourseGetMoreInfoFormSubmission status=FAILURE method=FormTest.OnlineCourseGetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:16 SAST" name="startDriver" finished-at="2023-11-02T19:56:18 SAST" duration-ms="2109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:16 SAST" name="startDriver" finished-at="2023-11-02T19:56:20 SAST" duration-ms="3945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SeaTurtleThaiApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:18 SAST" name="SeaTurtleThaiApplicationFormSubmission" description="Application form submission for the Sea Turtle Conservation and Adventure program" finished-at="2023-11-02T19:56:26 SAST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeaTurtleThaiApplicationFormSubmission -->
+        <test-method signature="SeaTurtleThaiCompleteApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:20 SAST" name="SeaTurtleThaiCompleteApplicationFormSubmission" description="Complete Your Application form submission for the Sea Turtle Conservation and Adventure program" finished-at="2023-11-02T19:56:55 SAST" duration-ms="35472" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="react-select-2-option-1"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26164, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4227, moz:profile: /tmp/rust_mozprofileVEDEJ4, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 920a0154-9eb1-4321-a0be-ea538495ddad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="react-select-2-option-1"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26164, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4227, moz:profile: /tmp/rust_mozprofileVEDEJ4, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 920a0154-9eb1-4321-a0be-ea538495ddad
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.CompleteYourApplication.selectStartDateOption(CompleteYourApplication.java:54)
+at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeaTurtleThaiCompleteApplicationFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:20 SAST" name="quitDriver" finished-at="2023-11-02T19:56:22 SAST" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ParentConsultationFormSubmission status=SUCCESS method=FormTest.ParentConsultationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:22 SAST" name="startDriver" finished-at="2023-11-02T19:56:26 SAST" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:26 SAST" name="quitDriver" finished-at="2023-11-02T19:56:27 SAST" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SeaTurtleThaiApplicationFormSubmission status=SUCCESS method=FormTest.SeaTurtleThaiApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="SpeakToAlumniFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:26 SAST" name="SpeakToAlumniFormSubmission" description="Speak To Alumni form submission for the Volunteer With Elephants program" finished-at="2023-11-02T19:56:48 SAST" duration-ms="21994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpeakToAlumniFormSubmission -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:27 SAST" name="startDriver" finished-at="2023-11-02T19:56:30 SAST" duration-ms="2580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SpecificCallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:30 SAST" name="SpecificCallBackRequestFormSubmission" description="Specific Callback Request form submission" finished-at="2023-11-02T19:56:40 SAST" duration-ms="10195" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element with the reference 053c936f-77cd-4070-9c6d-6b77bb052dbc is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2bd043d-e870-4ab6-a0c2-be6c13f2bc75, sendKeysToElement {id=053c936f-77cd-4070-9c6d-6b77bb052dbc, value=[Ljava.lang.CharSequence;@8ea7be}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:15791, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4799, moz:profile: /tmp/rust_mozprofilebD22Tp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)] -> css selector: textarea[name='why_want_to_apply']]
+Session ID: a2bd043d-e870-4ab6-a0c2-be6c13f2bc75]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element with the reference 053c936f-77cd-4070-9c6d-6b77bb052dbc is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2bd043d-e870-4ab6-a0c2-be6c13f2bc75, sendKeysToElement {id=053c936f-77cd-4070-9c6d-6b77bb052dbc, value=[Ljava.lang.CharSequence;@8ea7be}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:15791, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4799, moz:profile: /tmp/rust_mozprofilebD22Tp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)] -> css selector: textarea[name='why_want_to_apply']]
+Session ID: a2bd043d-e870-4ab6-a0c2-be6c13f2bc75
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at org.selenium.pom.pages.forms.CallBackRequestSpecific.enterComment(CallBackRequestSpecific.java:69)
+at org.selenium.pom.pages.forms.CallBackRequestSpecific.setUserInfo(CallBackRequestSpecific.java:79)
+at org.selenium.pom.tests.FormTest.SpecificCallBackRequestFormSubmission(FormTest.java:147)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecificCallBackRequestFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:40 SAST" name="quitDriver" finished-at="2023-11-02T19:56:43 SAST" duration-ms="2702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SpecificCallBackRequestFormSubmission status=FAILURE method=FormTest.SpecificCallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:48 SAST" name="quitDriver" finished-at="2023-11-02T19:56:50 SAST" duration-ms="1594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SpeakToAlumniFormSubmission status=SUCCESS method=FormTest.SpeakToAlumniFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca]" started-at="2023-11-02T19:56:55 SAST" name="quitDriver" finished-at="2023-11-02T19:56:57 SAST" duration-ms="1535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SeaTurtleThaiCompleteApplicationFormSubmission status=FAILURE method=FormTest.SeaTurtleThaiCompleteApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@7068f7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.FormTest -->
+    </test> <!-- Firefox -->
+    <test started-at="2023-11-02T19:54:16 SAST" name="Chrome" finished-at="2023-11-02T19:57:18 SAST" duration-ms="181797">
+      <class name="org.selenium.pom.tests.FormTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:26 SAST" duration-ms="9691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:21 SAST" duration-ms="5125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:16 SAST" name="startDriver" finished-at="2023-11-02T19:54:23 SAST" duration-ms="6929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="BrochureDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:22 SAST" name="BrochureDownloadFormSubmission" description="Brochure Download form submission" finished-at="2023-11-02T19:55:12 SAST" duration-ms="50301" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder='First Name*'])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff5e91a9a093c00b4e75918af2987b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder='First Name*'])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff5e91a9a093c00b4e75918af2987b8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.BrochureDownloadForm.enterFirstName(BrochureDownloadForm.java:48)
+at org.selenium.pom.pages.forms.BrochureDownloadForm.setUserInfo(BrochureDownloadForm.java:80)
+at org.selenium.pom.tests.FormTest.BrochureDownloadFormSubmission(FormTest.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrochureDownloadFormSubmission -->
+        <test-method signature="BlogSignUpFormCallbackRequest()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:23 SAST" name="BlogSignUpFormCallbackRequest" description="Blog signup form callback request for the Discovering Orchids program" finished-at="2023-11-02T19:54:49 SAST" duration-ms="25340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogSignUpFormCallbackRequest -->
+        <test-method signature="BlogSignUpFormEnquiry()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:26 SAST" name="BlogSignUpFormEnquiry" description="Blog signup form enquiry for the Discovering Orchids program" finished-at="2023-11-02T19:54:51 SAST" duration-ms="25142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogSignUpFormEnquiry -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:49 SAST" name="quitDriver" finished-at="2023-11-02T19:54:49 SAST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BlogSignUpFormCallbackRequest status=SUCCESS method=FormTest.BlogSignUpFormCallbackRequest()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:49 SAST" name="startDriver" finished-at="2023-11-02T19:54:51 SAST" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="CallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:51 SAST" name="CallBackRequestFormSubmission" description="Generic Callback Request form submission" finished-at="2023-11-02T19:55:10 SAST" duration-ms="18752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallBackRequestFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:51 SAST" name="quitDriver" finished-at="2023-11-02T19:54:52 SAST" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BlogSignUpFormEnquiry status=SUCCESS method=FormTest.BlogSignUpFormEnquiry()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:52 SAST" name="startDriver" finished-at="2023-11-02T19:54:54 SAST" duration-ms="1864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnquiryFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:54:54 SAST" name="EnquiryFormSubmission" description="Enquiry form submission" finished-at="2023-11-02T19:55:14 SAST" duration-ms="20228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:10 SAST" name="quitDriver" finished-at="2023-11-02T19:55:10 SAST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CallBackRequestFormSubmission status=SUCCESS method=FormTest.CallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:10 SAST" name="startDriver" finished-at="2023-11-02T19:55:13 SAST" duration-ms="2232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:12 SAST" name="quitDriver" finished-at="2023-11-02T19:55:14 SAST" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BrochureDownloadFormSubmission status=FAILURE method=FormTest.BrochureDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="GetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:13 SAST" name="GetMoreInfoFormSubmission" description="Get more info form submission for the Volunteer With Elephants program" finished-at="2023-11-02T19:56:10 SAST" duration-ms="57393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMoreInfoFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:14 SAST" name="quitDriver" finished-at="2023-11-02T19:55:15 SAST" duration-ms="884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=EnquiryFormSubmission status=SUCCESS method=FormTest.EnquiryFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:15 SAST" name="startDriver" finished-at="2023-11-02T19:55:17 SAST" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:15 SAST" name="startDriver" finished-at="2023-11-02T19:55:23 SAST" duration-ms="7912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GroupApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:17 SAST" name="GroupApplicationFormSubmission" description="Group application form submission for the Greece Coastal Conservation program" finished-at="2023-11-02T19:55:40 SAST" duration-ms="23056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupApplicationFormSubmission -->
+        <test-method signature="ItineraryDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:23 SAST" name="ItineraryDownloadFormSubmission" description="Itinerary Download form submission" finished-at="2023-11-02T19:56:07 SAST" duration-ms="44676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItineraryDownloadFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:40 SAST" name="quitDriver" finished-at="2023-11-02T19:55:40 SAST" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GroupApplicationFormSubmission status=SUCCESS method=FormTest.GroupApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:40 SAST" name="startDriver" finished-at="2023-11-02T19:55:43 SAST" duration-ms="2250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NewsletterSubscription()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:55:43 SAST" name="NewsletterSubscription" description="Newsletter Subscription" finished-at="2023-11-02T19:56:04 SAST" duration-ms="20825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewsletterSubscription -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:04 SAST" name="quitDriver" finished-at="2023-11-02T19:56:04 SAST" duration-ms="924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=NewsletterSubscription status=SUCCESS method=FormTest.NewsletterSubscription()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:04 SAST" name="startDriver" finished-at="2023-11-02T19:56:07 SAST" duration-ms="2115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OnlineCourseGetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:07 SAST" name="OnlineCourseGetMoreInfoFormSubmission" description="Online course Get More Info form submission for the Impact Measurement program" finished-at="2023-11-02T19:56:29 SAST" duration-ms="22112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlineCourseGetMoreInfoFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:07 SAST" name="quitDriver" finished-at="2023-11-02T19:56:08 SAST" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ItineraryDownloadFormSubmission status=SUCCESS method=FormTest.ItineraryDownloadFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:08 SAST" name="startDriver" finished-at="2023-11-02T19:56:11 SAST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:10 SAST" name="quitDriver" finished-at="2023-11-02T19:56:12 SAST" duration-ms="1984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GetMoreInfoFormSubmission status=SUCCESS method=FormTest.GetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="ParentConsultationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:11 SAST" name="ParentConsultationFormSubmission" description="Free Parent Consultation form submission" finished-at="2023-11-02T19:56:30 SAST" duration-ms="19368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParentConsultationFormSubmission -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:12 SAST" name="startDriver" finished-at="2023-11-02T19:56:14 SAST" duration-ms="2435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SeaTurtleThaiApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:14 SAST" name="SeaTurtleThaiApplicationFormSubmission" description="Application form submission for the Sea Turtle Conservation and Adventure program" finished-at="2023-11-02T19:56:23 SAST" duration-ms="8392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeaTurtleThaiApplicationFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:23 SAST" name="quitDriver" finished-at="2023-11-02T19:56:23 SAST" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SeaTurtleThaiApplicationFormSubmission status=SUCCESS method=FormTest.SeaTurtleThaiApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:23 SAST" name="startDriver" finished-at="2023-11-02T19:56:26 SAST" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SeaTurtleThaiCompleteApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:26 SAST" name="SeaTurtleThaiCompleteApplicationFormSubmission" description="Complete Your Application form submission for the Sea Turtle Conservation and Adventure program" finished-at="2023-11-02T19:57:03 SAST" duration-ms="37325" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ee111b7856267202c9b5cd5c447a2c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ee111b7856267202c9b5cd5c447a2c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.selenium.pom.pages.forms.CompleteYourApplication.selectDurationOption(CompleteYourApplication.java:66)
+at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeaTurtleThaiCompleteApplicationFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:29 SAST" name="quitDriver" finished-at="2023-11-02T19:56:29 SAST" duration-ms="741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OnlineCourseGetMoreInfoFormSubmission status=SUCCESS method=FormTest.OnlineCourseGetMoreInfoFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:29 SAST" name="startDriver" finished-at="2023-11-02T19:56:33 SAST" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:30 SAST" name="quitDriver" finished-at="2023-11-02T19:56:33 SAST" duration-ms="2599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ParentConsultationFormSubmission status=SUCCESS method=FormTest.ParentConsultationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="SpeakToAlumniFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:33 SAST" name="SpeakToAlumniFormSubmission" description="Speak To Alumni form submission for the Volunteer With Elephants program" finished-at="2023-11-02T19:57:17 SAST" duration-ms="44785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpeakToAlumniFormSubmission -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:33 SAST" name="startDriver" finished-at="2023-11-02T19:56:35 SAST" duration-ms="2328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SpecificCallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:35 SAST" name="SpecificCallBackRequestFormSubmission" description="Specific Callback Request form submission" finished-at="2023-11-02T19:56:50 SAST" duration-ms="14585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecificCallBackRequestFormSubmission -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:56:50 SAST" name="quitDriver" finished-at="2023-11-02T19:56:51 SAST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SpecificCallBackRequestFormSubmission status=SUCCESS method=FormTest.SpecificCallBackRequestFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:57:03 SAST" name="quitDriver" finished-at="2023-11-02T19:57:05 SAST" duration-ms="1600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SeaTurtleThaiCompleteApplicationFormSubmission status=FAILURE method=FormTest.SeaTurtleThaiCompleteApplicationFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b]" started-at="2023-11-02T19:57:17 SAST" name="quitDriver" finished-at="2023-11-02T19:57:18 SAST" duration-ms="619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SpeakToAlumniFormSubmission status=SUCCESS method=FormTest.SpeakToAlumniFormSubmission()[pri:0, instance:org.selenium.pom.tests.FormTest@21f9277b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.FormTest -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>

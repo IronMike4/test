@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="182.308" tests="30" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="Drivers/chromedriver/mac-arm64/114.0.5735.90/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/test-classes:/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/classes:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.3/selenium-java-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.3/selenium-api-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.3/selenium-chrome-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tinagomahachi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tinagomahachi/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/tinagomahachi/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/tinagomahachi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.3/selenium-chromium-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.3/selenium-json-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.3/selenium-manager-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.3/selenium-devtools-v109-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.3/selenium-devtools-v110-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.8.3/selenium-devtools-v111-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.3/selenium-devtools-v85-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.3/selenium-edge-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.3/selenium-http-4.8.3.jar:/Users/tinagomahachi/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.3/selenium-ie-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.3/selenium-remote-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-buffer/4.1.90.Final/netty-buffer-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec-http/4.1.90.Final/netty-codec-http-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec/4.1.90.Final/netty-codec-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-handler/4.1.90.Final/netty-handler-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-common/4.1.90.Final/netty-common-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.90.Final/netty-transport-classes-epoll-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.90.Final/netty-transport-classes-kqueue-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.90.Final/netty-transport-native-epoll-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.90.Final/netty-transport-native-kqueue-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.90.Final/netty-transport-native-unix-common-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport/4.1.90.Final/netty-transport-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-resolver/4.1.90.Final/netty-resolver-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.24.0/opentelemetry-exporter-logging-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.24.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/tinagomahachi/.m2/repository/net/bytebuddy/byte-buddy/1.14.2/byte-buddy-1.14.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tinagomahachi/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/tinagomahachi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/tinagomahachi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/tinagomahachi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/tinagomahachi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.3/selenium-safari-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.3/selenium-support-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/tinagomahachi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tinagomahachi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tinagomahachi/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/tinagomahachi/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/tinagomahachi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/tinagomahachi/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/tinagomahachi/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/tinagomahachi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/tinagomahachi/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/tinagomahachi/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tinagomahachi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tinagomahachi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/tinagomahachi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar:/Users/tinagomahachi/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tinagomahachi/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tinagomahachi/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tinagomahachi/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tinagomahachi/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/tinagomahachi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/tinagomahachi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/3.1.0/maven-failsafe-plugin-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.1.0/maven-surefire-common-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-api/3.1.0/surefire-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.1.0/surefire-logger-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.1.0/surefire-extensions-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-booter/3.1.0/surefire-booter-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.1.0/surefire-extensions-spi-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/tinagomahachi/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/tinagomahachi/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/tinagomahachi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/tinagomahachi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/tinagomahachi/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/tinagomahachi/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/tinagomahachi/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.1.0/surefire-shared-utils-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29.jar:/Users/tinagomahachi/.m2/repository/org/apache/pdfbox/fontbox/2.0.29/fontbox-2.0.29.jar:/Users/tinagomahachi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/surefire/surefirebooter-20231102195415872_3.jar /Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/surefire 2023-11-02T19-54-15_830-jvmRun1 surefire-20231102195415872_1tmp surefire_0-20231102195415872_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/test-classes:/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/classes:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.3/selenium-java-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.3/selenium-api-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.3/selenium-chrome-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tinagomahachi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tinagomahachi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tinagomahachi/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/tinagomahachi/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/tinagomahachi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.3/selenium-chromium-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.3/selenium-json-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.3/selenium-manager-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.3/selenium-devtools-v109-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.3/selenium-devtools-v110-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.8.3/selenium-devtools-v111-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.3/selenium-devtools-v85-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.3/selenium-edge-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.3/selenium-http-4.8.3.jar:/Users/tinagomahachi/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.3/selenium-ie-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.3/selenium-remote-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-buffer/4.1.90.Final/netty-buffer-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec-http/4.1.90.Final/netty-codec-http-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec/4.1.90.Final/netty-codec-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-handler/4.1.90.Final/netty-handler-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-common/4.1.90.Final/netty-common-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.90.Final/netty-transport-classes-epoll-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.90.Final/netty-transport-classes-kqueue-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.90.Final/netty-transport-native-epoll-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.90.Final/netty-transport-native-kqueue-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.90.Final/netty-transport-native-unix-common-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport/4.1.90.Final/netty-transport-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-resolver/4.1.90.Final/netty-resolver-4.1.90.Final.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.24.0/opentelemetry-exporter-logging-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.24.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0.jar:/Users/tinagomahachi/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha.jar:/Users/tinagomahachi/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/tinagomahachi/.m2/repository/net/bytebuddy/byte-buddy/1.14.2/byte-buddy-1.14.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tinagomahachi/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/tinagomahachi/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/tinagomahachi/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/tinagomahachi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/tinagomahachi/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/tinagomahachi/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.3/selenium-safari-driver-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.3/selenium-support-4.8.3.jar:/Users/tinagomahachi/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/tinagomahachi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tinagomahachi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tinagomahachi/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/tinagomahachi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/tinagomahachi/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/tinagomahachi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/tinagomahachi/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/tinagomahachi/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/tinagomahachi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/tinagomahachi/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/tinagomahachi/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/tinagomahachi/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tinagomahachi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tinagomahachi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tinagomahachi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/tinagomahachi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/tinagomahachi/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/tinagomahachi/.m2/repository/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar:/Users/tinagomahachi/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tinagomahachi/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tinagomahachi/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tinagomahachi/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tinagomahachi/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/tinagomahachi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/tinagomahachi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/tinagomahachi/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/3.1.0/maven-failsafe-plugin-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.1.0/maven-surefire-common-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-api/3.1.0/surefire-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.1.0/surefire-logger-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.1.0/surefire-extensions-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-booter/3.1.0/surefire-booter-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.1.0/surefire-extensions-spi-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/tinagomahachi/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/tinagomahachi/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/tinagomahachi/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/tinagomahachi/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tinagomahachi/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/tinagomahachi/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/tinagomahachi/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/tinagomahachi/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/tinagomahachi/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/tinagomahachi/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.1.0/surefire-shared-utils-3.1.0.jar:/Users/tinagomahachi/.m2/repository/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29.jar:/Users/tinagomahachi/.m2/repository/org/apache/pdfbox/fontbox/2.0.29/fontbox-2.0.29.jar:/Users/tinagomahachi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tinagomahachi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop/target/surefire/surefirebooter-20231102195415872_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="tinagomahachi"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/tinagomahachi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/d5/yzmjs4713415c49pnhhr4s0w0000gp/T/"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/tinagomahachi/Desktop/GVI Automated Tests/GVIPlanetDesktop/GVIPlanetDesktop"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="Drivers/geckodriver/mac-arm64/0.33.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="IE"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tinagomahachi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="BlogSignUpFormEnquiry" classname="org.selenium.pom.tests.FormTest" time="3.29">
+    <failure message="Element &lt;button class=&quot;flex m-auto  sm:w-1/2 w-full py-2 bg-red-light dark:bg-green-standard border dark:border-green-standard border-red-right justify-center items-center rounded-full dark:rounded-[3px]&quot; type=&quot;submit&quot;&gt; is not clickable at point (613,871) because another element &lt;div class=&quot;dark:text-white text-black-lighter&quot;&gt; obscures it&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [ab1911c4-bbd9-4e66-ba8e-423d5da94f1d, clickElement {id=e9b66fe0-bbe4-4167-a4fe-4c4da025a60e}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26136, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 159, moz:profile: /tmp/rust_mozprofilehjG5Xg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)] -&gt; xpath: (//button[@type=&apos;submit&apos;])[1]]&#10;Session ID: ab1911c4-bbd9-4e66-ba8e-423d5da94f1d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="flex m-auto  sm:w-1/2 w-full py-2 bg-red-light dark:bg-green-standard border dark:border-green-standard border-red-right justify-center items-center rounded-full dark:rounded-[3px]" type="submit"> is not clickable at point (613,871) because another element <div class="dark:text-white text-black-lighter"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ab1911c4-bbd9-4e66-ba8e-423d5da94f1d, clickElement {id=e9b66fe0-bbe4-4167-a4fe-4c4da025a60e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26136, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 159, moz:profile: /tmp/rust_mozprofilehjG5Xg, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)] -> xpath: (//button[@type='submit'])[1]]
+Session ID: ab1911c4-bbd9-4e66-ba8e-423d5da94f1d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.selenium.pom.pages.forms.BlogSignUpForm.submitEnquiry(BlogSignUpForm.java:78)
+	at org.selenium.pom.tests.FormTest.BlogSignUpFormEnquiry(FormTest.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (1ff5e91a9a093c00b4e75918af2987b8)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)
+CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (816e0f16cd42165f8f3a0fa17d4fc460)
+CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (28d29af7-22e5-41ba-94ae-dc6e8c5cec12)
+CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (1e80bc8491bfbda0466f522fe0792edc)
+CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (15944146-567a-43e0-8e14-8bc5e9c61408)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 02, 2023 7:54:20 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="BlogSignUpFormEnquiry" classname="org.selenium.pom.tests.FormTest" time="0.113">
+    <system-out><![CDATA[CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (816e0f16cd42165f8f3a0fa17d4fc460)
+CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (b320cad9-984d-4e66-8684-3da042364d74)
+CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (9c831e7b1c83890723c5319086eca1c7)
+]]></system-out>
+  </testcase>
+  <testcase name="BrochureDownloadFormSubmission" classname="org.selenium.pom.tests.FormTest" time="10.36">
+    <system-out><![CDATA[CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (ab1911c4-bbd9-4e66-ba8e-423d5da94f1d)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (ea347a52-e596-44e1-bf31-c102c38e4f44)
+]]></system-out>
+  </testcase>
+  <testcase name="BrochureDownloadFormSubmission" classname="org.selenium.pom.tests.FormTest" time="4.827">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder=&apos;First Name*&apos;])[1] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1ff5e91a9a093c00b4e75918af2987b8" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder='First Name*'])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff5e91a9a093c00b4e75918af2987b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.enterFirstName(BrochureDownloadForm.java:48)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.setUserInfo(BrochureDownloadForm.java:80)
+	at org.selenium.pom.tests.FormTest.BrochureDownloadFormSubmission(FormTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (9c831e7b1c83890723c5319086eca1c7)
+]]></system-out>
+  </testcase>
+  <testcase name="BlogSignUpFormCallbackRequest" classname="org.selenium.pom.tests.FormTest" time="11.43">
+    <system-out><![CDATA[CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (28d29af7-22e5-41ba-94ae-dc6e8c5cec12)
+]]></system-out>
+  </testcase>
+  <testcase name="BlogSignUpFormCallbackRequest" classname="org.selenium.pom.tests.FormTest" time="10.674">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()=&apos;Just a moment...&apos;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:24815, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 608, moz:profile: /tmp/rust_mozprofileOQlCNK, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 15944146-567a-43e0-8e14-8bc5e9c61408" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:24815, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 608, moz:profile: /tmp/rust_mozprofileOQlCNK, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15944146-567a-43e0-8e14-8bc5e9c61408
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+	at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+	at org.selenium.pom.tests.FormTest.BlogSignUpFormCallbackRequest(FormTest.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (1e80bc8491bfbda0466f522fe0792edc)
+CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (78e4a9c0be06b4e49d86af83384a0441)
+]]></system-out>
+  </testcase>
+  <testcase name="CallBackRequestFormSubmission" classname="org.selenium.pom.tests.FormTest" time="2.87">
+    <system-out><![CDATA[CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (15944146-567a-43e0-8e14-8bc5e9c61408)
+CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (076a7993-86c3-4bb2-9af5-4a89b6f4b023)
+]]></system-out>
+  </testcase>
+  <testcase name="CallBackRequestFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.388">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()=&apos;Just a moment...&apos;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:3468, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1030, moz:profile: /tmp/rust_mozprofileNMO3Ou, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ea347a52-e596-44e1-bf31-c102c38e4f44" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:3468, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1030, moz:profile: /tmp/rust_mozprofileNMO3Ou, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ea347a52-e596-44e1-bf31-c102c38e4f44
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+	at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+	at org.selenium.pom.tests.FormTest.CallBackRequestFormSubmission(FormTest.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (e0a24c17c4cb52d0d3bdac86f3556818)
+CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (1ff5e91a9a093c00b4e75918af2987b8)
+]]></system-out>
+  </testcase>
+  <testcase name="EnquiryFormSubmission" classname="org.selenium.pom.tests.FormTest" time="1.195">
+    <system-out><![CDATA[CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (ea347a52-e596-44e1-bf31-c102c38e4f44)
+]]></system-out>
+  </testcase>
+  <testcase name="EnquiryFormSubmission" classname="org.selenium.pom.tests.FormTest" time="2.709">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()=&apos;Just a moment...&apos;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:6500, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1483, moz:profile: /tmp/rust_mozprofileq66Huq, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b320cad9-984d-4e66-8684-3da042364d74" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Just a moment...'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:6500, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 1483, moz:profile: /tmp/rust_mozprofileq66Huq, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b320cad9-984d-4e66-8684-3da042364d74
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.JustAMoment.getJustAMomentMessage(JustAMoment.java:17)
+	at org.selenium.pom.base.PageMessageAssertionsHelper.assertJustAMoment(PageMessageAssertionsHelper.java:17)
+	at org.selenium.pom.tests.FormTest.EnquiryFormSubmission(FormTest.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (78e4a9c0be06b4e49d86af83384a0441)
+CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (841248c94907fc3512eb836382d44fc0)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (bcd40b92-79a1-41bd-b86e-5fd4e08613ca)
+CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (9a314736519855f1c8cd0c9605ab2433)
+]]></system-out>
+  </testcase>
+  <testcase name="GetMoreInfoFormSubmission" classname="org.selenium.pom.tests.FormTest" time="8.227">
+    <system-out><![CDATA[CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (b320cad9-984d-4e66-8684-3da042364d74)
+]]></system-out>
+  </testcase>
+  <testcase name="GetMoreInfoFormSubmission" classname="org.selenium.pom.tests.FormTest" time="3.37">
+    <system-out><![CDATA[CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (4b07b846-2c22-400b-bebb-609685c30903)
+]]></system-out>
+  </testcase>
+  <testcase name="GroupApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="6.3">
+    <system-out><![CDATA[CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (4b07b846-2c22-400b-bebb-609685c30903)
+CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (076a7993-86c3-4bb2-9af5-4a89b6f4b023)
+]]></system-out>
+  </testcase>
+  <testcase name="GroupApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.803">
+    <system-out><![CDATA[CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (841248c94907fc3512eb836382d44fc0)
+CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (07911d3d-49ed-4812-a4c6-7917b28386b5)
+CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (90ad04e9f73fb6d08db0f7d72a22bcc1)
+]]></system-out>
+  </testcase>
+  <testcase name="NewsletterSubscription" classname="org.selenium.pom.tests.FormTest" time="7.962">
+    <system-out><![CDATA[CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (bcd40b92-79a1-41bd-b86e-5fd4e08613ca)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)
+]]></system-out>
+  </testcase>
+  <testcase name="NewsletterSubscription" classname="org.selenium.pom.tests.FormTest" time="13.814">
+    <system-out><![CDATA[CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (07911d3d-49ed-4812-a4c6-7917b28386b5)
+]]></system-out>
+  </testcase>
+  <testcase name="ItineraryDownloadFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.65">
+    <system-out><![CDATA[CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (90ad04e9f73fb6d08db0f7d72a22bcc1)
+CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (1705f9ce-3d80-4d69-bebd-721e59ace8a0)
+CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (01902f001f986688aeba475221fd0798)
+]]></system-out>
+  </testcase>
+  <testcase name="ItineraryDownloadFormSubmission" classname="org.selenium.pom.tests.FormTest" time="2.542">
+    <system-out><![CDATA[CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (9a314736519855f1c8cd0c9605ab2433)
+]]></system-out>
+  </testcase>
+  <testcase name="OnlineCourseGetMoreInfoFormSubmission" classname="org.selenium.pom.tests.FormTest" time="4.238">
+    <failure message="Element &lt;input class=&quot;opacity-0 absolute&quot; name=&quot;newsletter&quot; type=&quot;checkbox&quot;&gt; is not clickable at point (827,885) because another element &lt;div class=&quot;gvi-container flex justify-between items-center mx-auto py-7&quot;&gt; obscures it&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [6371ba12-8501-4933-932b-64289de8c23a, clickElement {id=4f5325ce-7cae-4512-9daf-b756364c840b}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:17170, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 3235, moz:profile: /tmp/rust_mozprofileBgdrla, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)] -&gt; xpath: //input[@name=&apos;newsletter&apos;]]&#10;Session ID: 6371ba12-8501-4933-932b-64289de8c23a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <input class="opacity-0 absolute" name="newsletter" type="checkbox"> is not clickable at point (827,885) because another element <div class="gvi-container flex justify-between items-center mx-auto py-7"> obscures it
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6371ba12-8501-4933-932b-64289de8c23a, clickElement {id=4f5325ce-7cae-4512-9daf-b756364c840b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:17170, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 3235, moz:profile: /tmp/rust_mozprofileBgdrla, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)] -> xpath: //input[@name='newsletter']]
+Session ID: 6371ba12-8501-4933-932b-64289de8c23a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.selenium.pom.pages.forms.OnlineCourseGetMoreInfoForm.selectNewsletter(OnlineCourseGetMoreInfoForm.java:74)
+	at org.selenium.pom.tests.FormTest.OnlineCourseGetMoreInfoFormSubmission(FormTest.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="OnlineCourseGetMoreInfoFormSubmission" classname="org.selenium.pom.tests.FormTest" time="2.608">
+    <system-out><![CDATA[CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (bf285642-5d53-4f39-b82f-3bf6b049519d)
+CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (62fe095c-09ec-453e-8956-b172e2a9a0dc)
+]]></system-out>
+  </testcase>
+  <testcase name="ParentConsultationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.584">
+    <system-out><![CDATA[CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (48e74271cee64d25b18d42fd31e52fa8)
+CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (e0a24c17c4cb52d0d3bdac86f3556818)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (6371ba12-8501-4933-932b-64289de8c23a)
+CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (a695575409b59f7934d8783459336862)
+CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (62fe095c-09ec-453e-8956-b172e2a9a0dc)
+CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (920a0154-9eb1-4321-a0be-ea538495ddad)
+]]></system-out>
+  </testcase>
+  <testcase name="ParentConsultationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.889">
+    <system-out><![CDATA[CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (01902f001f986688aeba475221fd0798)
+CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)
+]]></system-out>
+  </testcase>
+  <testcase name="SeaTurtleThaiApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="3.013">
+    <system-out><![CDATA[CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (1705f9ce-3d80-4d69-bebd-721e59ace8a0)
+]]></system-out>
+  </testcase>
+  <testcase name="SeaTurtleThaiApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="0.187">
+    <system-out><![CDATA[CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (a695575409b59f7934d8783459336862)
+CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (c3ee111b7856267202c9b5cd5c447a2c)
+]]></system-out>
+  </testcase>
+  <testcase name="SpecificCallBackRequestFormSubmission" classname="org.selenium.pom.tests.FormTest" time="4.396">
+    <failure message="The element with the reference 053c936f-77cd-4070-9c6d-6b77bb052dbc is stale; either its node document is not the active document, or it is no longer connected to the DOM&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [a2bd043d-e870-4ab6-a0c2-be6c13f2bc75, sendKeysToElement {id=053c936f-77cd-4070-9c6d-6b77bb052dbc, value=[Ljava.lang.CharSequence;@8ea7be}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:15791, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4799, moz:profile: /tmp/rust_mozprofilebD22Tp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)] -&gt; css selector: textarea[name=&apos;why_want_to_apply&apos;]]&#10;Session ID: a2bd043d-e870-4ab6-a0c2-be6c13f2bc75" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+The element with the reference 053c936f-77cd-4070-9c6d-6b77bb052dbc is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2bd043d-e870-4ab6-a0c2-be6c13f2bc75, sendKeysToElement {id=053c936f-77cd-4070-9c6d-6b77bb052dbc, value=[Ljava.lang.CharSequence;@8ea7be}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:15791, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4799, moz:profile: /tmp/rust_mozprofilebD22Tp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)] -> css selector: textarea[name='why_want_to_apply']]
+Session ID: a2bd043d-e870-4ab6-a0c2-be6c13f2bc75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at org.selenium.pom.pages.forms.CallBackRequestSpecific.enterComment(CallBackRequestSpecific.java:69)
+	at org.selenium.pom.pages.forms.CallBackRequestSpecific.setUserInfo(CallBackRequestSpecific.java:79)
+	at org.selenium.pom.tests.FormTest.SpecificCallBackRequestFormSubmission(FormTest.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 32, DRIVER = RemoteWebDriver: chrome on LINUX (4b3d244cdf086b1c658c252e17e5e994)
+CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (48e74271cee64d25b18d42fd31e52fa8)
+CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (406852b0b051cc70f9729bc208e6c821)
+]]></system-out>
+  </testcase>
+  <testcase name="SpecificCallBackRequestFormSubmission" classname="org.selenium.pom.tests.FormTest" time="14.586">
+    <system-out><![CDATA[CURRENT THREAD: 27, DRIVER = RemoteWebDriver: firefox on LINUX (bf285642-5d53-4f39-b82f-3bf6b049519d)
+]]></system-out>
+  </testcase>
+  <testcase name="SpeakToAlumniFormSubmission" classname="org.selenium.pom.tests.FormTest" time="12.668">
+    <system-out><![CDATA[CURRENT THREAD: 29, DRIVER = RemoteWebDriver: firefox on LINUX (a2bd043d-e870-4ab6-a0c2-be6c13f2bc75)
+]]></system-out>
+  </testcase>
+  <testcase name="SpeakToAlumniFormSubmission" classname="org.selenium.pom.tests.FormTest" time="41.873">
+    <system-out><![CDATA[CURRENT THREAD: 30, DRIVER = RemoteWebDriver: chrome on LINUX (c3ee111b7856267202c9b5cd5c447a2c)
+]]></system-out>
+  </testcase>
+  <testcase name="SeaTurtleThaiCompleteApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="19.812">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;react-select-2-option-1&quot;] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26164, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4227, moz:profile: /tmp/rust_mozprofileVEDEJ4, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 920a0154-9eb1-4321-a0be-ea538495ddad" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="react-select-2-option-1"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:26164, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.49-linuxkit-pr, moz:processID: 4227, moz:profile: /tmp/rust_mozprofileVEDEJ4, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidi: ws://172.19.0.4:4444/sessio..., se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 920a0154-9eb1-4321-a0be-ea538495ddad
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.CompleteYourApplication.selectStartDateOption(CompleteYourApplication.java:54)
+	at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 31, DRIVER = RemoteWebDriver: chrome on LINUX (406852b0b051cc70f9729bc208e6c821)
+]]></system-out>
+  </testcase>
+  <testcase name="SeaTurtleThaiCompleteApplicationFormSubmission" classname="org.selenium.pom.tests.FormTest" time="27.808">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c3ee111b7856267202c9b5cd5c447a2c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ee111b7856267202c9b5cd5c447a2c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.CompleteYourApplication.selectDurationOption(CompleteYourApplication.java:66)
+	at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[CURRENT THREAD: 28, DRIVER = RemoteWebDriver: firefox on LINUX (920a0154-9eb1-4321-a0be-ea538495ddad)
+]]></system-out>
+  </testcase>
+</testsuite>

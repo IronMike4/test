@@ -1,0 +1,16 @@
+{
+  "firstName": "Automated",
+  "lastName": "Test",
+  "phone": "07123456789",
+  "email": "automatedtest@gviprograms.com",
+  "comment": "This is just a test",
+  "institution": "Saint Michael's School",
+  "dietaryRequirementDetails": "Fruits and Vegetables",
+  "medicalConditionDetails": "Asthmatic",
+  "guardianTitle": "Mr",
+  "guardianFirstName": "Guardian",
+  "guardianLastName": "Test",
+  "guardianPhone": "0841234567",
+  "guardianEmail": "automatedtest@gviprograms.com",
+  "age": "19"
+}

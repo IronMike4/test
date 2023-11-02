@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 02 19:54:16 SAST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>181 seconds (181797 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission()'><b>SeaTurtleThaiCompleteApplicationFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Complete Your Application form submission for the Sea Turtle Conservation and Adventure program</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ee111b7856267202c9b5cd5c447a2c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.CompleteYourApplication.selectDurationOption(CompleteYourApplication.java:66)
+	at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace991855092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace991855092'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div/div/div/section/div/div[2]/div/form/div[2]/div[1]/div[2]/div[2]/div/div (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ee111b7856267202c9b5cd5c447a2c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.CompleteYourApplication.selectDurationOption(CompleteYourApplication.java:66)
+	at org.selenium.pom.tests.FormTest.SeaTurtleThaiCompleteApplicationFormSubmission(FormTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>37</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.BrochureDownloadFormSubmission()'><b>BrochureDownloadFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Brochure Download form submission</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder=&apos;First Name*&apos;])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff5e91a9a093c00b4e75918af2987b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.enterFirstName(BrochureDownloadForm.java:48)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.setUserInfo(BrochureDownloadForm.java:80)
+	at org.selenium.pom.tests.FormTest.BrochureDownloadFormSubmission(FormTest.java:204)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace470422710", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace470422710'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder=&apos;First Name*&apos;])[1] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 117.0.5938.62, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff5e91a9a093c00b4e75918af2987b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.enterFirstName(BrochureDownloadForm.java:48)
+	at org.selenium.pom.pages.forms.BrochureDownloadForm.setUserInfo(BrochureDownloadForm.java:80)
+	at org.selenium.pom.tests.FormTest.BrochureDownloadFormSubmission(FormTest.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>50</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.GetMoreInfoFormSubmission()'><b>GetMoreInfoFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Get more info form submission for the Volunteer With Elephants program</td>
+<td></td>
+<td>57</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.SpeakToAlumniFormSubmission()'><b>SpeakToAlumniFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Speak To Alumni form submission for the Volunteer With Elephants program</td>
+<td></td>
+<td>44</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.SpecificCallBackRequestFormSubmission()'><b>SpecificCallBackRequestFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Specific Callback Request form submission</td>
+<td></td>
+<td>14</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.OnlineCourseGetMoreInfoFormSubmission()'><b>OnlineCourseGetMoreInfoFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Online course Get More Info form submission for the Impact Measurement program</td>
+<td></td>
+<td>22</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.GroupApplicationFormSubmission()'><b>GroupApplicationFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Group application form submission for the Greece Coastal Conservation program</td>
+<td></td>
+<td>23</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.ParentConsultationFormSubmission()'><b>ParentConsultationFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Free Parent Consultation form submission</td>
+<td></td>
+<td>19</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.SeaTurtleThaiApplicationFormSubmission()'><b>SeaTurtleThaiApplicationFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Application form submission for the Sea Turtle Conservation and Adventure program</td>
+<td></td>
+<td>8</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.CallBackRequestFormSubmission()'><b>CallBackRequestFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Generic Callback Request form submission</td>
+<td></td>
+<td>18</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.ItineraryDownloadFormSubmission()'><b>ItineraryDownloadFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Itinerary Download form submission</td>
+<td></td>
+<td>44</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.BlogSignUpFormEnquiry()'><b>BlogSignUpFormEnquiry</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Blog signup form enquiry for the Discovering Orchids program</td>
+<td></td>
+<td>25</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.BlogSignUpFormCallbackRequest()'><b>BlogSignUpFormCallbackRequest</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Blog signup form callback request for the Discovering Orchids program</td>
+<td></td>
+<td>25</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.EnquiryFormSubmission()'><b>EnquiryFormSubmission</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Enquiry form submission</td>
+<td></td>
+<td>20</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+<tr>
+<td title='org.selenium.pom.tests.FormTest.NewsletterSubscription()'><b>NewsletterSubscription</b><br>Test class: org.selenium.pom.tests.FormTest<br>Test method: Newsletter Subscription</td>
+<td></td>
+<td>20</td>
+<td>org.selenium.pom.tests.FormTest@21f9277b</td></tr>
+</table><p>
+</body>
+</html>
